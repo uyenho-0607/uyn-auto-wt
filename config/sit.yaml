@@ -1,0 +1,62 @@
+# GENERAL #
+
+
+root_url: https://root.webtrader-sit.s20ip12.com/root
+user_root: ...
+password_root: ...
+
+lirunex:
+  base_url: https://lirunex-mb.webtrader-sit.s20ip12.com/web
+#  base_url: https://aqxtrader.aquariux.com/web
+  bo_url: https://lirunex-backoffice.webtrader-sit.s20ip12.com/backoffice
+
+  credentials:
+    mt4:
+      user_live: chinyee.heng@aquariux.com  # account demo, for sample
+      password_live: Chinyee@123456  # (todo: update script to encrypt all the password)
+
+      user_crm: ...
+      password_crm: ...
+
+#      user_demo: 2092008173
+#      password_demo: Uyen@06071997
+#
+      user_demo: 2092008130
+      password_demo: Uyen@06071997
+
+    mt5:
+
+      user_live: 569200612
+      password_live: Master@123
+
+      user_crm: ...
+      password_crm: ...
+
+      user_demo: 569200612
+      password_demo: Master@123
+
+  mobile:
+    android_package: com.aquariux.wt.sit.lirunex
+    android_udid: R5CWA20BQ9P # 12021FDD4001DU
+
+    ios_udid: ...
+    ios_bundle: ...
+
+transactionCloud:
+  base_url: https://transactcloudmt5-mb.webtrader-sit.s20ip12.com/web
+  bo_url: https://transactcloudmt5-backoffice.webtrader-sit.s20ip12.com/backoffice/
+
+  credentials:
+    mt5:
+      user_live: 998434
+      password_live: Aqxtrader@135
+
+      user_demo: 998536
+      password_demo: lO##I3!epVa6
+
+  mobile:
+    android_package: com.aquariux.wt.sit.transactcloudmt5
+    android_udid: R5CWA20BQ9P # 12021FDD4001DU
+
+    ios_udid: ...
+    ios_bundle: ...
